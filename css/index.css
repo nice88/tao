@@ -1,0 +1,531 @@
+/*header*/
+	header{
+		width: 100%;
+		height: 36px;
+		background: #333333;
+	}
+	.top{
+		width: 1090px;
+		height: 100%;
+		margin: 0 auto;
+	}
+	.top ul{
+		float: right;
+	}
+	.top li{
+		color: #a09786;
+		float: left;
+		height: 20px;
+		margin-top: 8px;
+		padding: 0 14px 0 14px;
+		border-right: 1px solid #6d6350;
+	}
+	.top li:last-child{
+		border:none;
+	}
+	.top li a{
+		height: 20px;
+		line-height: 20px;
+		display: block;
+		font-size: 14px;
+		color: #a09786;
+		text-align: center;
+	}
+	.top li:first-child span:hover{
+		text-decoration: underline;
+	}
+
+	.top li:last-child a{
+		position: relative;
+	}
+	.weixin{
+		text-align: center;
+		display: none;
+		position: absolute;
+		top:30px;
+		left: -44px;
+	}
+	.weixin img{
+		width: 150px;
+		height: 150px;
+	}
+	.weixin p{
+		width: 150px;
+		height: 30px;
+		background: #f6f6f6;
+		font-size: 14px;
+		text-align: center;
+		line-height: 30px;
+		color: black;
+	}
+	.top li:last-child a:hover .weixin{
+		display: block;
+		z-index: 1;
+	}
+
+/*nav*/
+	nav{
+		width: 100%;
+		height: 140px;
+	}
+	.nav-content{
+		width: 1090px;
+		height: 140px;
+		margin:0 auto;
+		overflow: hidden;
+	}
+	.nav-content>div{
+		height: 100%;
+		float: left;
+	}
+	.nav-content div:nth-child(1){
+		width: 20%;
+	}
+	.nav-content div:nth-child(1) img{
+		width: 183px;
+		height: 80px;
+		margin-top: 30px;
+	}
+	.nav-right{
+		width: 80%;
+		height: 140px;
+	}
+	.nav-right li{
+		width: 84px;
+		height: 30px;
+		float: left;
+		margin-left: 30px;
+		margin-top: 55px;
+		text-align: center;
+		line-height: 30px;
+		border-radius: 15px;
+	}
+	.nav-right a{
+		font-size: 16px;
+		display: block;
+		color: black;
+	}
+	.nav-right li:first-child{
+		background: #972d32;
+	}
+	.nav-right li:first-child a{
+		color: white;
+	}
+
+/*banner*/
+	.banner{
+		width: 100%;
+		height: 420px;
+	}
+	
+/*严选好货*/
+	.goods{
+		width: 100%;
+		height: 615px;
+		background: #f6f6f6;
+	}
+	.goods-box{
+		width: 1100px;
+		height: 580px;
+		margin:54px auto;
+		overflow: hidden;
+	}
+	h4{
+		font-size: 28px;
+		font-weight: normal;
+		margin-bottom: 23px;
+	}
+	.goods-box h4 span{
+		font-size: 14px;
+		margin-left: 20px;
+	}
+	.goods-ul{
+		height: 530px;
+	}
+	.goods-li{
+		width: 265px;
+		height: 530px;
+		background: #fff;
+		cursor: pointer;
+		float: left;
+		margin-right: 10px;
+	}
+	.goods-img{
+		width: 265px;
+		height: 265px;
+		overflow: hidden;
+	}
+	.goods-img img{
+		transition: all 3s;
+	}
+	.goods-li:hover .goods-img img{
+		transform: scale(1.1);
+	}
+	.goods-li a{
+		display: block;
+		width: 100%;
+	}
+	.goods-li h5{
+		font-size: 18px;
+		font-weight: normal;
+		color: #333;
+		text-align: center;
+		margin: 16px 0 10px;
+	}
+	.goods-li p{
+		color: gray;
+		font-size: 14px;
+		height: 96px;
+		line-height: 24px;
+		margin-left: 16px;
+	}
+	.goods-money{
+		margin: 0 16px;
+	}
+	.goods-money div:first-child{
+		font-size: 20px;
+		float: left;
+		color: #972d32;
+	}
+	.goods-money div:first-child span{
+		font-size: 28px;
+	}
+	.goods-money div:last-child{
+		font-size: 12px;
+		color: grey;
+		margin-top: 16px;
+		float: right;
+	}
+	.goods-btn{
+		width: 245px;
+		height: 40px;
+		background: #972d32;
+		margin-left: 10px;
+		border: none;
+		color: #fff;
+		margin-top: 24px;
+	}
+	.goods-btn:hover{
+		background: #ac363c;
+	}
+
+/*限时优惠*/
+	.time{
+		width: 100%;
+		height: 443px;
+		background: #f4f0ea;
+		padding-top: 53px;
+	}
+	.time-top{
+		width: 1100px;
+		height: 443px;
+		margin: 0 auto;
+		position: relative;
+	}
+	.time-top h4 span{
+		font-size: 14px;
+		color: #b09258;
+		display: block;
+		margin-top: 2px;
+	}
+	.time-dao{
+		position: absolute;
+		top: 3px;
+		left: 150px;
+		font-size: 24px;
+		color: grey;
+	}
+	.time-dao span{
+		display: inline-block;
+		width: 50px;
+		height: 50px;
+		margin: 0 2px;
+		line-height: 50px;
+		text-align: center;
+		background: #bea87d;
+		color: #fff;
+	}
+	.time-dao em{
+		padding: 0 2px;
+		font-style: normal;
+	}
+	.time-box{
+		width: 265px;
+		height: 322px;
+		margin-right: 10px;
+		float: left;
+	}
+	.time-box:hover .goods-img img{
+		transform: scale(1.1);
+	}
+	.time-name{
+		margin-top: 20px;
+	}
+	.time-name h5{
+		font-size: 14px;
+		color: #333;
+		margin: 0 0 5px;
+	}
+	.time-name p{
+		color: #972d32;
+		font-size: 14px;
+	}
+	.time-name p span{
+		text-decoration: line-through;
+		color: grey;
+		margin-left: 10px;
+	}
+	.time-name button{
+		width: 90px;
+		height: 28px;
+		line-height: 28px;
+		font-weight: bold;
+		font-size: 12px;
+		background: #972d32;
+		color: #fff;
+		border: none;
+		float: right;
+		margin: -30px 10px 0 0;
+	}
+	.time-name button:hover{
+		background: #ac363c;
+	}
+
+/*发现好货*/
+	.find{
+		width: 100%;
+		overflow: hidden;
+	}
+	.find-box{
+		height: 100%;
+	}
+	.find .time-box{
+		margin-bottom: 40px;
+	}
+
+/*footer*/
+	footer{
+		width: 100%;
+		height: 201px;
+		background: #414141;
+	}
+	.foot{
+		width: 1100px;
+		height: 106px;
+		margin: 0 auto;
+		color: #fff;
+		font-size: 18px;
+		display: flex;
+	}
+	.foot-1{
+		display: flex;
+		flex:1;
+		justify-content: center;
+		align-items: center;
+	}
+	.foot-1 img{
+		margin-right: 10px;
+	}
+	.foot-2{
+		font-size: 12px;
+		color: #7a7a7a;
+		text-align: center;
+		position: relative;
+	}
+	.foot-wx img{
+		width: 150px;
+		height: 150px;
+	}
+	.foot-wx p{
+		width: 150px;
+		height: 30px;
+		background: #f6f6f6;
+		font-size: 14px;
+		text-align: center;
+		line-height: 30px;
+		color: black;
+	}
+	.foot-wx{
+		position: absolute;
+		left: 365px;
+		top: -165px;
+		display: none;
+	}
+	.foot-2 a{
+		color: #7a7a7a;
+		font-size: 12px;
+		display: inline-block;
+		margin:24px 15px 10px;
+	}
+	.foot-2 a:first-child:hover .foot-wx{
+		display: block;
+	}
+
+/*左侧边栏*/
+	body{
+		position: relative;
+	}
+	aside{
+		width: 158px;
+		height: 415px;
+		background: url(../img/aside-1.png) no-repeat;
+		position: absolute;
+		left: 12px;
+		top: 670px;
+	}
+	.aside-ul{
+		width: 110px;
+		height: 108px;
+		background: #fdf1ea;
+		position: absolute;
+		left: 15px;
+		top: 142px;
+		border-radius: 3px;
+		padding-top: 11px;
+	}
+	.aside-ul li a{
+		color: #636d78; 
+	}
+	.aside-ul li{
+		width: 80px;
+		height: 20px;
+		font-size: 14px;
+		text-align: center;
+		margin: 0 auto 12px;
+		border-radius: 10px;
+	}
+	.aside-ul li:hover{
+		background: #e14662;
+	}
+	.aside-ul li:hover a{
+		color: #fff;
+	}
+
+/*右侧边栏*/
+	.right{
+		width: 157px;
+		height: 340px;
+		background: url(../img/aside-2.png) no-repeat;
+		position: absolute;
+		right: 12px;
+		top: 690px;
+	}
+	.right p a{
+		color: white;
+		font-size: 14px;
+		font-weight: bold;
+	}
+	.right p{
+		width: 94px;
+		height: 22px;
+		margin: 0 auto;
+		line-height: 22px;
+		text-align: center;
+		background: #c2435a;
+		position: absolute;
+		left: 19px;
+		bottom: 73px;
+	}
+
+/*登录*/
+	.login{
+		width: 1000%;
+		height: 1000%;
+		background:rgba(0,0,0,.3);
+		position: fixed;
+		left: 0;
+		top: 0;
+		display: none;
+	}
+	.loginup .login-close{
+		width: 24px;
+		height: 24px;
+		position: absolute;
+		right: 15px;
+		top: 5px;
+		cursor: pointer;
+	}
+	.loginup{
+		width: 370px;
+		height: 378px;
+		position: fixed;
+		left: 50%;
+		top: 50%;
+		margin-left: -195px;
+		margin-top:-199px;
+		background: #fff;
+		padding: 15px;
+		color: #232220;
+	}
+	.loginup img{
+		margin: 10px auto;
+		width: 150px;
+		height: 65px;
+	}
+	.loginup form{
+		padding: 0 20px;
+	}
+	.input-1{
+		height: 45px;
+		margin: 25px 0;
+		border: 1px solid #ccc;
+	    border-radius: 2px;
+	}
+	.input-1 span{
+		display: block;
+		width: 45px;
+		height: 45px;
+		background: url(../img/phone.png) 50% no-repeat;
+		background-size: 24px 28px;
+		position: relative;
+		float: left;
+	}
+	.input-1 span::after{
+		content: "";
+		display: block;
+		width: 1px;
+		height: 25px;
+		background: #ccc;
+		position: absolute;
+		right: 0;
+		top: 10px;
+	}
+	.input-1 input{
+		width: 270px;
+		outline: none;
+	}
+	.input-11{
+		height: 45px;
+		border: none;
+		padding-left: 10px;
+		background: transparent;
+		font-size: 14px;
+	}
+	.input-2{
+		background: #ccc;
+		width: 100%;
+		height: 45px;
+		margin: 10px 0;
+		border: none;
+		color: #eee;
+		font-size: 18px;
+	}
+	.input-3{
+		margin: 25px 94px;
+	}
+	.input-3 img{
+		width: 14px;
+		height: 14px;
+		float: left;
+	}
+	.input-3 p{
+		margin-left: 20px;
+		font-size: 12px;
+		line-height: 32px;
+		width: 216px;
+	}
+	.input-3 p a{
+		float: right;
+		font-size: 16px;
+		color: #972d32;
+	}
